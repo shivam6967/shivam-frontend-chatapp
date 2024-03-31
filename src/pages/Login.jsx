@@ -62,7 +62,7 @@ const Login = () => {
         id: toastId,
       });
     } catch (error) {
-      toast.error(error?.response?.data?.message || "Something Went Wrong", {
+      toast.error(error?.response?.data?.message || "Unable to Login", {
         id: toastId,
       });
     } finally {
@@ -102,7 +102,7 @@ const Login = () => {
         id: toastId,
       });
     } catch (error) {
-      toast.error(error?.response?.data?.message || "Something Went Wrong", {
+      toast.error(error?.response?.data?.message || "Unable to SignUp", {
         id: toastId,
       });
     } finally {
